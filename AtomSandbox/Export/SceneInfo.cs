@@ -1,6 +1,4 @@
-﻿using System.Xml.Serialization;
-
-using AtomSandbox.Simulation;
+﻿using AtomSandbox.Simulation;
 
 namespace AtomSandbox.Export
 {
@@ -10,7 +8,6 @@ namespace AtomSandbox.Export
 
         public List<Particle>? Points { get; set; }
 
-        [XmlElement(Type = typeof(XmlJointContainer))]
-        public JointContainer? JointContainer { get; set; }
+        public XmlJointContainer? JointContainer { get; set; }
     }
 }

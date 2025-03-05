@@ -1737,7 +1737,7 @@
             canvas.Location = new Point(4, 3);
             canvas.Margin = new Padding(4, 3, 4, 3);
             canvas.Name = "canvas";
-            canvas.Size = new Size(687, 755);
+            canvas.Size = new Size(686, 755);
             canvas.TabIndex = 0;
             canvas.TabStop = false;
             canvas.Zoom = 1F;
@@ -1785,7 +1785,7 @@
             KeyPreview = true;
             Margin = new Padding(4, 3, 4, 3);
             Name = "MainForm";
-            Text = "Particles form";
+            Text = "Atom Sandbox";
             Load += MainForm_Load;
             KeyDown += MainForm_KeyDown;
             splitContainer.Panel1.ResumeLayout(false);

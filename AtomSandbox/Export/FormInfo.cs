@@ -2,7 +2,7 @@
 
 namespace AtomSandbox.Export
 {
-    internal class FormInfo
+    public class FormInfo
     {
         public RangeControlInfo[]? RangeControls { get; set; }
         public CheckBoxInfo[]? CheckBoxControls { get; set; }

@@ -1,6 +1,6 @@
 ﻿namespace AtomSandbox.Export
 {
-    internal class SimulationInfo
+    public class SimulationInfo
     {
         public SceneInfo? SceneInfo { get; set; }
 

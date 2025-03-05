@@ -2,7 +2,7 @@
 
 namespace AtomSandbox.Export
 {
-    internal class XmlJointContainer
+    public class XmlJointContainer
     {
         public class JointInfo
         {
